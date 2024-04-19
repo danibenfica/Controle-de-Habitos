@@ -3,9 +3,9 @@
 
                 body {
     
-    background-image: url("../imgs/strawberry.jpg");
-    background-size: 500px;
-    background-color: rgb(255, 227, 227);
+    background-image: url("../imgs/bunny.jpg");
+    background-size: 100%;
+    background-color: rgb(255, 171, 212);
     background-blend-mode: lighten;
     text-align: center;
     font-family: "Trocchi", sans-serif;
@@ -14,12 +14,14 @@
 #mes {
     margin-top: 100px;
     line-height: 10px;
+    color: rgb(229, 0, 168);
 }
 
 #controlador-de-habitos {
     opacity: 0.7;
     font-size: 18px;
     margin-bottom: 20px;
+    color: fuchsia;
 }
 
 #container-do-calendario {
@@ -52,6 +54,10 @@
     border: 2px solid black;
 }
 
+#total-de-dias {
+    color:  rgb(229, 0, 168);;
+}
+
 .dias {
     display: flex;
     justify-content: center;
@@ -64,6 +70,5 @@
     font-size: 15px;
     text-align: center;
     border-radius: 30px;
-    border: 2px solid black;
-    background-color: rgb(238, 154, 217);
+    background-color: rgb(255, 196, 240);
 }
